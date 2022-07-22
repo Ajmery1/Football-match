@@ -1,0 +1,101 @@
+body {
+    /* font-family: 'Edu VIC WA NT Beginner', cursive; */
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container {
+
+    margin: 50px 100px;
+    display: flex;
+
+    
+
+}
+.top-banner { 
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.background-banner {
+    display: flex;
+    
+}
+.banner-text, .banner-img {
+    margin: 50px 100px;
+}
+.banner-text h1{
+
+    font-size: 45px;
+    font-weight: 700px;
+}
+.banner-text p {
+    padding-bottom: 20px;
+    
+}
+.banner-img {
+    margin-bottom: 0px;
+}
+
+.banner-img {
+    width: 100%;
+}
+.btn {
+    color: #fff;
+    background-color: tomato;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+    
+
+
+}
+.blog {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgrey;
+    
+}
+
+.blog-image img {
+    width: 100%;
+}
+.blog-info {
+    margin: 20px;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.blog-btn{
+    background-color: black;
+    width: 20%;
+    height: 150px;
+
+}
+.button{
+    color: #fff;
+    text-decoration: none;
+    background-color: tomato;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.button-style{
+    display: flex;
+    flex-direction: column;
+    
+}
+
